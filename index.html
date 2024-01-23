@@ -30,7 +30,7 @@
 
     <nav>
 
-        <div class="flex items-center justify-center justify-between mx-24 my-5">
+        <div class="flex items-center justify-center justify-between lg:mx-24 my-5">
 
 
             <!-- bar and title -->
@@ -47,10 +47,10 @@
 
             <!-- home contact title -->
 
-            <div class="flex items-center justify-center gap-5 lg:visible sm:invisible">
+            <div class="flex items-center justify-center gap-5">
 
-                <div class="text-red-500"><a href="">Home</a></div>
-                <div><a href="">About</a></div>
+                <div class="text-red-500 "><a href="">Home</a></div>
+                <div ><a href="">About</a></div>
                 <div><a href="">Blog</a></div>
                 <div><a href="">Pages</a></div>
                 <div><a href="">Contact</a></div>
@@ -85,6 +85,51 @@
 
 
     <header>
+
+        <!-- slider-1 -->
+
+        <div class="carousel relative  h-auto lg:mx-24">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+
+            </div> 
+
+            <!-- slider-2 -->
+
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+
+            </div> 
+
+            <!-- slider-3 -->
+             
+
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="Images/3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class=" bg-black text-white p-5 absolute items-end bottom-10 ml-96">
+            <h2 class="text-3xl font-bold">Meet all the <br> heroes from the field</h2>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing <br> aliquam turpis placerat dolor. Purus urna in sit nullam proin</p>
+          </div>
+
+          <!-- border dashed -->
+
+          <div class="border-dashed border-2 border-b-slate-700 mb-10 mt-10 opacity-10 mx-28"></div>
 
     </header>
 
