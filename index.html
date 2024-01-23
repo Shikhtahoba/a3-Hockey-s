@@ -8,12 +8,72 @@
     <!-- External css link -->
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- daisy ui link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind css link -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome link -->
+
+    <script src="https://kit.fontawesome.com/d2d2c91066.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
 
     <!-- navigation code start -->
 
     <nav>
+
+        <div class="flex items-center justify-center justify-between mx-24 my-5">
+
+
+            <!-- bar and title -->
+
+            <div class="flex items-center justify-center gap-4">
+                 
+                           <!-- lg device hidden bar title -->
+
+                <div class="lg:invisible sm:visible"><a href=""><i class="fas fa-bars"></i></a></div> 
+
+                <div><h2 class="text-4xl font-extrabold">Hockey's</h2></div>
+
+            </div>
+
+            <!-- home contact title -->
+
+            <div class="flex items-center justify-center gap-5 lg:visible sm:invisible">
+
+                <div class="text-red-500"><a href="">Home</a></div>
+                <div><a href="">About</a></div>
+                <div><a href="">Blog</a></div>
+                <div><a href="">Pages</a></div>
+                <div><a href="">Contact</a></div>
+
+            </div>
+
+            <!-- Search icon Button -->
+
+            <div class="flex items-center justify-center gap-3">
+
+                <!-- search icon nav bar -->
+
+                <div class="lg:visible sm:invisible"><a href=""><i class="fas fa-search"></i></a></div>
+
+                <!-- button nav bar -->
+
+                <div>
+                    <button class="btn btn-active btn-secondary">Get Ticket</button>
+                </div>
+
+            </div>
+
+        </div>
 
     </nav>
 
