@@ -1,3 +1,32 @@
-.pp{
-    border-radius: 10px;
+.your-name input{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    margin-top: 5px;
+    width: 260px;
 }
+.your-email input{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    margin-top: 5px;
+    width: 260px;
+}
+.subject input{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    margin-top: 5px;
+    width: 260px;
+}
+.phn input{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    margin-top: 5px;
+    width: 260px;
+}
+.text {
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    margin-top: 5px;
+    width: 540px;
+    height: 300px;
+}
+
